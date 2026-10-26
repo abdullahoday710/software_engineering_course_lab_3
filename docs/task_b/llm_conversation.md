@@ -1,12 +1,7 @@
 # Task B/C – LLM conversation for the generated code
 
 The prototype code, tests, README and these documents were **generated completely** by
-Claude Opus 5.5 (`claude-opus-5-5`, Anthropic) in one claude.ai session on 25–26 Oct 2026, so
-the assignment requires the conversation. The main messages are reproduced here.
-*Tip for the submission:* export the full chat from claude.ai (Share → copy link) and add the
-link below.
-
-Full conversation link: `<paste claude.ai share link here>`
+Claude Opus 5.5 (`claude-opus-5-5`, Anthropic) in one claude.ai session on 25–26 Oct 2026
 
 ## 1 Initial request (student)
 
