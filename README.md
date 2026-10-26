@@ -22,6 +22,10 @@ The GUI is written in **immediate mode** with Dear ImGui (Python bindings from `
 every frame the screen is redrawn from the current state, and widgets return their new values
 directly. All logic lives in a GUI-free core, so it is fully unit-tested.
 
+**Why Dear ImGui?** I chose Dear ImGui because it is the UI framework I am most familiar with,
+coming from a C++ background. The `imgui-bundle` Python bindings keep the same API as the C++
+library, so I could build the touchscreen the same way I would in C++.
+
 ```mermaid
 flowchart TB
     subgraph UI[smartbrew/ui - Dear ImGui, immediate mode]
